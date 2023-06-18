@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.Section9{
+   /* border:1px solid green; */
+   padding: 4rem 0rem;;
+}
+.Section9Heading{
+    padding: 2rem 0rem;
+}
+.ContainerSection9{
+    text-align: center;
+    width: 26rem;
+}
+.slidesSection9 img{
+    height: 30rem;
+    width: 25rem;
+}
+@media screen and (max-width:430px){
+.slidesSection9 img{
+    /* height: 20rem;
+    width: 15rem; */
+}
+.ContainerSection9{
+    width: 100%;
+}
+}

@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding: 0px;
+    color: black;
+}
+.Login{
+    /* border:1px solid red; */
+}
+.ContainerLogin{
+    /* border: 1px solid green; */
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;  
+         padding: 2rem 0rem;
+
+      
+    
+}
+.Login .item{
+    color:black;
+    margin-top: 1rem;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.Login input{
+    /* border:2px solid black; */
+    border: none !important;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color :black;
+    width: 70%;
+    /* text-align: center; */
+}
+.fb { 
+    background-color: #3b5998;
+    color: white !important;
+    padding: 0.5rem;
+    border-radius: 0;
+    border-radius: 10px;
+    width: 100%;
+}
+.Google{
+  background-color:#dd4b39;
+    color: white !important;
+    padding: 0.5rem;
+    border-radius: 0;
+    border-radius: 10px;
+        width: 100%;
+
+}
+
+.Login .GoToSignUP{
+    display: flex;
+    flex-direction: row;
+}
+
+.createAcc{
+    color:blue;
+    cursor : pointer;
+
+}
+.signIn{
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 3rem;
+}
+.signIn:hover{
+    background-color: black;
+    color: white;
+}
+    
+/* @media  screen and (min-width: 1500px) {
+    .Login{
+        width: 1500px;
+    } 
+} */
+
+.ContainerSignUp{
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 1px solid red;
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ContainerSignUp .item{
+    margin-top: 1rem;
+    text-align: center;
+        width: 80%;;
+
+}
+.ContainerSignUp input{
+    border:2px solid black;
+    padding:0.5rem;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    border: 2px solid rgb(66, 62, 62);
+    border-radius: 10px;
+}
+.create{
+    border-radius: 0px;
+    display: inline;
+    margin-top: 1rem;
+    margin:0rem 2rem;
+    font-weight: bold;
+    padding: 1rem;
+     background-color:rgb(13,110,253);
+     border-radius: 10px;
+     font-size: 1.2rem;
+     color: white;
+    }
+.create:hover{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+}
+.GoToLogin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

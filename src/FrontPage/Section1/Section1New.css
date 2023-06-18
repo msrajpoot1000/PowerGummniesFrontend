@@ -1,0 +1,97 @@
+*{
+    margin:0px ;
+    padding:0px;
+    color: black;
+}
+.container{
+    border:none ;
+}
+.Section11 ,.Section12{
+    /* border:1px solid red; */
+    background-image: url("./images/BannerBack1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:none;
+}
+.containerSection11{
+    /* border:1px solid green; */
+    /* padding: 3rem; */
+    padding-top: 0rem;
+  
+}
+
+.Section11Slides{
+    position: relative ;
+}
+
+.Section11SlidePartLeft{
+  /* border:1px solid black; */
+  display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding:2rem
+}
+.Section11SlidePartLeft h1{
+  padding:2rem 0;
+}
+.Section11SlidePartLeft h6{
+  padding:1rem 0;
+}
+
+
+
+
+.Section11SlidePartRight{
+  /* border:1px solid yellow; */
+  display: inline-block;
+  position: absolute;
+  padding: 2rem;
+
+  width: 50%;
+}
+
+
+.Img{
+    height: 500px;
+}
+.CartItemImg3{
+    /* padding:3rem; */
+}
+.Section12{
+    display: none;
+}
+.Section12 .cartLogo{
+    /* padding:2rem; */
+    width: 80%;
+    padding:1rem;
+
+}
+.Section12Slides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:500px){
+    .Section12{
+    display: flex;
+}
+.Section11{
+    display: none;
+}
+}
+@media screen and (min-width:501px){
+    .Section12{
+    display: none;
+}
+    .Section11{
+    display: flex;
+}
+
+}
+
+.Section12Slides  Img{
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,307 @@
+*{
+    margin:0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+img{
+}
+
+.NavHead{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+width: 100%;
+    /* margin:0.5rem; */
+    /* border:2px solid red; */
+    padding:0.5rem;
+    /* position:fixed; */
+    /* position :sticky; */
+    /* margin-top: 100px; */
+    
+    background-color:white;
+    z-index: 1;
+
+}
+.upperHeadLeft{
+    float: left;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    /* border:1px solid green; */
+    width: 50%;
+}
+.upperHeadRight{
+
+    /* border:2px solid red; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    padding: 0.3rem 0rem;
+    width: 50%;
+}
+.container{
+    border:1px solid black
+}
+
+
+
+
+.navImg{
+    width: 2.5rem;
+}
+
+.navItem{
+    /* border:1px solid green; */
+    margin:0px 0.5rem;
+   
+}
+.loginBtn{
+    /* padding: 0.5rem; */
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+    font-weight: 300px;
+    border:none
+}
+.loginBtn:hover{
+ background-color: white;
+    color: black;}
+
+.NavBottomHeading{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+}
+
+
+.OffCanvasBody{
+    padding-top:0.01rem;
+    /* border: 1px solid blue; */
+    margin:0px ;
+}
+.OffCanvasBody h2{
+text-align: center;
+padding:1rem 0px;
+/* border :1px solid red; */
+font-weight: bold;
+}
+.nBSection1{
+    background-color: #d0f6fa;
+}
+.WelBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.WelBtn Button{
+    margin:1rem;
+    padding: 1rem 2.5rem;
+    background-color: #d0f6fa;
+    color:black;
+    border :2px solid black;
+    font-style: bold;
+    font-weight: bold;
+    border-radius: 0px;
+}
+.WelBtn Button:hover{
+    background-color: #d0f6fa;
+     margin:1rem;
+    padding: 1rem 2.5rem;
+    background-color:black;
+    color:white;
+    border :2px solid rgb(15, 14, 14);
+    font-style: bold;
+    font-weight: bold;
+
+}
+
+
+.nBSection2{
+   
+    padding-top:1rem;   
+    
+}
+.CollapseItemBtn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    font-size: 1.5rem;
+    width: 90%;
+    margin:0px;
+    padding: 0px;
+    /* border:1px solid red; */
+    text-align: left;
+     background-color: #d0f6fa;
+}
+.CollapseItem{
+    width: 90%;
+    padding: 1rem 0px;
+    
+     background-color: #d0f6fa;
+}
+.CollapseItemBtn{
+    /* border: 1px solid black; */
+}
+
+.plus{
+    /* border:1px solid red; */
+    float:right;
+    width: 10%;
+    text-align: center;
+}
+hr{
+    color: black;
+    
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+
+.wname{
+    box-shadow: #d0f6fa;
+}
+#example-collapse-text{
+    padding-top: 1rem;
+  
+}
+
+.collapseInsideListItem{
+    margin:0.8rem 0px;
+    /* border:1px solid red; */
+}
+.collapseInsideListItem  h5{
+    /* margin-left: 2rem; */
+        /* border:1px solid red; */
+
+}
+
+
+@media screen and (min-width:750px){
+    .rightToogle{
+         display: none;
+    }
+    .leftToogle{
+        display: flex
+    }
+  
+    
+}
+@media screen and (max-width:750px){
+    .rightToogle{
+        display: flex;
+    }
+    .leftToogle{
+        display: none;
+    }
+      .user{
+        display: none;
+    }
+    .loginBtn{
+        display: none;
+    }
+    .heart{
+        display: none;
+    }
+    .upperHeadLeft{
+        width: 60%;
+
+    }
+    .upperHeadRight{
+        width: 40%;
+
+    }
+    
+}
+@media screen and (max-width:410px){
+    .upperHeadRight{
+        padding:0.6rem 0rem;
+
+    }
+
+}
+
+@media screen and (max-width:300px){
+    .navItem{
+        margin:0rem 0.1rem;
+    }
+}
+
+
+
+
+
+.Navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.nBSection2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.CartCarlImg{
+    margin:1.5rem 0;
+
+}
+.cartBtnHead{
+    margin:2rem 0;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid rebeccapurple;
+}
+.cartBtn{
+    width: 15rem;
+    margin:0.8rem 0;
+    padding:0.8rem;
+    font-weight: bold;
+}
+.cartBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.nBSection2{
+    /* border:1px solid red; */
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+}
+
+
+.Tooglebtn{
+   
+   
+}
+.toogleHead{
+     /* border: 1px solid black; */
+    padding: 0.5rem;
+}
+
+.WelBtn{
+    /* border: 1px solid red; */
+}
+.who-we-are-button{
+
+text-decoration: none;
+}
+.websiteTitle:hover{
+    cursor:default;
+}

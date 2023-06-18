@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* .slick-prev:before {
+ content: "<";
+  color: red;
+  font-size: 40px;
+  background-color: black;
+  font-size: 3rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+}
+
+.slick-next:before {
+  content: ">";
+  color: red;
+  font-size: 40px;
+  background-color: black;
+  font-size: 3rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+} */
+.Section6{
+    padding:3rem 0rem;
+}
+.Section6Heading{
+    padding:2rem 0rem;
+    text-align: center;
+}
+
+.SlidesSection6{
+    padding:0rem 1rem;
+
+}
+
+.Section6part2{
+    /* border:1px solid red; */
+    width: 90%;
+    /* margin-top: -8rem; */
+    background-color: aqua;
+    z-index: 1;
+}
+@media screen and (min-width:600px){
+    .Section6{
+       /* width :90%; */
+    }
+}
+img{
+    width: 100%;
+}

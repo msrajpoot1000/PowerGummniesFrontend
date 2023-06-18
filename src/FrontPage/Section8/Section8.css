@@ -1,0 +1,44 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+.Section8{
+    padding: 3rem 0rem;
+    border: 1px solid red;;
+}
+.Section8Heading{
+    text-align: center;
+    padding: 2rem 0rem;
+}
+.Section8Slides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+    margin: 0px;
+    padding: 0px;
+    color:#707070;
+}
+.Section8Rating{
+     margin: 0px;
+    padding: 0px;
+}
+.Section8Slides{
+    padding: 0rem 1rem;
+    /* border:1px solid red; */
+    
+}
+.Section8SlidePart2{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px soide black;
+    flex-direction: column;
+}
+.Section8  h2 ,p,h4,button ,.Section8Rating{
+    /* border:1px solid red; */
+    margin:0px ;
+    padding: 0px ;   
+}

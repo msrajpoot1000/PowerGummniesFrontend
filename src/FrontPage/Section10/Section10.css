@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.section10{
+    padding: 3rem 0rem;
+}
+.ContainerSection10{
+    /* border:1px solid red; */
+    padding:4rem 0rem;
+}
+.slidesSection10{
+    /* border:1px solid green; */
+    padding:0rem 1rem;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.Section10Heading{
+    text-align: center;
+    padding: 2rem 0rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+
+}

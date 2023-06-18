@@ -1,0 +1,30 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+.slick-prev:before{
+    font-size: 40px;
+    color:red;
+    z-index: 1;
+    margin-right: -4rem;
+}
+.slick-next:before{
+     font-size: 40px;
+    color:red;
+    z-index: 1;
+    margin-left: -4rem;
+}
+.Section7{
+    padding:3rem 0rem;
+    /* border: 1px solid red; */
+    
+}
+
+.Section7Heading{
+    text-align: center;
+    /* padding: 4rem 0rem; */
+    padding: 2rem 0rem;
+}
+.SlidesSection7{
+   padding: 0rem 1rem;
+}

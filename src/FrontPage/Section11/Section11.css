@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+     /* background-color: #222222 !important; */
+    padding: 0px;
+    /* color:white !important; */
+}
+.Section11{
+   
+     background-color: #222222 !important;
+    color: white;
+    border:none;
+   }
+   h2{
+    padding: 2rem 0rem 1rem 0rem;
+   }
+.Container{
+    display: flex;
+    align-items: center;
+    border: none;
+    flex-direction: column;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px 3rem;
+    flex-wrap: wrap;
+
+}
+.item{
+    padding: 0rem 1rem;
+    border-right: 2px solid white;
+    font-style: bold;
+
+}
+.line{
+    }
+.images{
+    /* display: flex; */
+    /* display: grid; */
+   
+}
+.Email {
+  padding: 0rem 0rem 1rem 0rem;
+}
+.Section11 input,button{
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    color:white;
+    text-align: center;
+    margin :0.5rem;
+    border:none;
+    border-radius: 10px;
+}
+.Section11 button{
+    background-color: black;
+    font-weight: bold;
+    border :2px solid white;
+}
+.Section11 button:hover{
+    background-color: white;
+    color:black;
+}
+
+.images{
+    /* border:1px solid white; */
+    /* background-color: white !important; */
+}
+.Section11 img{
+      /* border:1px solid black; */
+}
+p{
+    padding: 1rem;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
